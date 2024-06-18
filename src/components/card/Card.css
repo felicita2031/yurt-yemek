@@ -1,0 +1,72 @@
+/* body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; 
+} */
+
+
+.menu-card {
+  background-color: #EFEFEF; /* Mavi arka plan (artık görünmeyecek) */
+  color: black;
+  padding: 0; /* Üst padding kaldırıldı */
+  border-radius: 20px; /* Tüm köşeler 20px yuvarlatıldı */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+  width: 250px;
+}
+
+/* Akşam yazısı için ayrı stil */
+.header {
+  background-color: #264483; /* Kırmızı arka plan */
+  color: white;
+  padding: 15px 120px 15px 0px; /* Üst, sağ, alt, sol padding */
+  text-align: center;
+  font-weight: bold;
+  border-radius: 20px 20px 20px 20px; /* Üst köşeler 20px yuvarlatıldı */
+  font-size: 24px; /* Yazı boyutunu büyüt */
+}
+
+
+/* benim css  */
+.meal-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4)
+}
+
+.hover-shadow {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hover-shadow:hover {
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 14px 28px rgba(0, 0, 0, 0.25); */
+}
+
+.baslikKahvalti {
+
+background-color: #97BDEF;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) 
+
+}
+
+.baslikAksam {
+
+  background-color: #264483;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+  }
+
+
+  .bold-list-items li {
+    font-weight: bold;
+  }
+
+  li {
+    font-size: 13px;
+    font-style:italic;
+    margin-bottom:6px;
+
+
+  }
+  
+
+  
